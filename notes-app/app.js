@@ -1,4 +1,4 @@
-const name = require('./utils')
+const { name } = require('./utils')
 
 const anyVariable = 'any'
 
