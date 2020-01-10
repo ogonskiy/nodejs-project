@@ -1,5 +1,5 @@
-console.log('utils.js')
+const fs = require('fs')
 
-const name = 'Sam'
+const getNotes = cb => fs.readFile('notes.txt', 'utf8', cb)
 
-module.exports = { name }
+module.exports = { getNotes }

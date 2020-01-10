@@ -1,7 +1,7 @@
-const { name } = require('./utils')
+const { getNotes } = require('./utils')
 
-const anyVariable = 'any'
+const printNotes = (err, notes) => {
+  console.log(notes)
+}
 
-console.log(name)
-
-console.log(anyVariable)
+getNotes(printNotes)
