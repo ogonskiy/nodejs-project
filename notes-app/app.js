@@ -1,4 +1,7 @@
-const fs = require('fs')
+const name = require('./utils')
 
-fs.writeFileSync('notes.txt', 'This file was created by Node.js')
-fs.appendFileSync('notes.txt', '\nnew line')
+const anyVariable = 'any'
+
+console.log(name)
+
+console.log(anyVariable)
